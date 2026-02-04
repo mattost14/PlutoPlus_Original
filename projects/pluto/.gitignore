@@ -1,0 +1,24 @@
+# Vivado build artifacts
+*.cache/
+*.gen/
+*.hw/
+*.runs/
+*.srcs/
+*.ip_user_files/
+.Xil/
+
+# Vivado logs
+vivado.jou
+vivado.log
+vivado_*.backup.jou
+vivado_*.backup.log
+timing_*.log
+
+# Vivado project file (can be regenerated from TCL scripts)
+*.xpr
+
+# SDK/Vitis files
+*.sdk/
+
+# Temporary files
+dfx_runtime.txt
